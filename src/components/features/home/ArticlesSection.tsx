@@ -166,14 +166,6 @@ const ArticlesSection = () => {
                       href={selectedArticle.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition-colors duration-300"
-                    >
-                      Đọc thêm
-                    </a>
-                    <a
-                      href="https://facebook.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="bg-[#1877F2] text-white px-4 py-2 rounded-full text-sm hover:bg-[#166FE5] transition-colors duration-300 flex items-center"
                     >
                       <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
