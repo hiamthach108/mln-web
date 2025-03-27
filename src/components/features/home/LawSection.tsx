@@ -36,7 +36,7 @@ const LawSection = () => {
           <div className="relative h-[400px] animate-slide-in-left">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl"></div>
             <Image
-              src="https://picsum.photos/800/600"
+              src="/images/definition.jpg"
               alt="Quy luật cung cầu"
               fill
               className="object-cover rounded-2xl shadow-xl"

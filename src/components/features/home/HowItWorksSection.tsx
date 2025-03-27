@@ -60,10 +60,10 @@ const HowItWorksSection = () => {
           <div className="relative h-[500px] animate-slide-in-right">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl"></div>
             <Image
-              src="https://picsum.photos/800/600"
+              src="/images/elements.jpg"
               alt="Các yếu tố ảnh hưởng"
               fill
-              className="object-cover rounded-2xl shadow-xl"
+              className="object-cover object-center rounded-2xl shadow-xl"
             />
           </div>
         </div>

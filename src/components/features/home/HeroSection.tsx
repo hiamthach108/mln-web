@@ -31,7 +31,7 @@ const HeroSection = () => {
                 Tìm hiểu thêm
               </a>
             </div>
-            <div className="mt-12 grid grid-cols-3 gap-8">
+            {/* <div className="mt-12 grid grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary mb-2">10+</div>
                 <div className="text-gray-600">Bài viết</div>
@@ -44,15 +44,15 @@ const HeroSection = () => {
                 <div className="text-3xl font-bold text-primary mb-2">24/7</div>
                 <div className="text-gray-600">Học mọi lúc</div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="relative h-[500px] animate-float">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl"></div>
             <Image
-              src="https://picsum.photos/800/600"
+              src="/images/hero.jpg"
               alt="Quy luật cung cầu"
               fill
-              className="object-cover rounded-2xl shadow-2xl"
+              className="object-cover rounded-2xl shadow-2xl object-center w-full h-full"
             />
           </div>
         </div>

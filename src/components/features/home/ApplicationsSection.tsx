@@ -7,19 +7,19 @@ const ApplicationsSection = () => {
       title: 'Thị trường bất động sản',
       description: 'Quy luật cung cầu ảnh hưởng trực tiếp đến giá nhà đất và xu hướng đầu tư. Khi cung thấp và cầu cao, giá bất động sản tăng.',
       icon: '🏠',
-      image: 'https://picsum.photos/800/600'
+      image: '/images/housing-market.jpg'
     },
     {
       title: 'Thị trường chứng khoán',
       description: 'Giá cổ phiếu chịu ảnh hưởng lớn từ quy luật cung cầu. Khi nhiều người muốn mua (cầu cao), giá cổ phiếu tăng.',
       icon: '📈',
-      image: 'https://picsum.photos/800/600'
+      image: '/images/stock-market.jpg'
     },
     {
       title: 'Thị trường lao động',
       description: 'Lương và việc làm cũng tuân theo quy luật cung cầu. Khi nhu cầu về một kỹ năng cao, lương cho vị trí đó sẽ tăng.',
       icon: '💼',
-      image: 'https://picsum.photos/800/600'
+      image: '/images/labor-market.jpg'
     }
   ];
 
@@ -35,7 +35,7 @@ const ApplicationsSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+        {/* <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-[400px] animate-slide-in-left">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl"></div>
             <Image
@@ -61,7 +61,7 @@ const ApplicationsSection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="grid md:grid-cols-3 gap-8">
           {applications.map((app, index) => (
