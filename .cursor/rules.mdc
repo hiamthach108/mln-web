@@ -1,0 +1,29 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+description: This rule to create coding conversion and the agent must be follow this rule
+globs: 
+alwaysApply: true
+
+# Supply and Demand Project Coding Rules
+
+## Component Structure
+- UI Components should be placed in `src/components/features` or `src/components/shared`
+
+## Styling
+- Should use tailwind and antd components
+- Can you any external libraries to make animation
+- Make layout responsive in any screen size
+- Layout should be gentle and attractive enough with smooth animation 
+- Header should have navigation to page section
+
+# Content
+- Landing page trình bày về quy luật cung và cầu
+- Trên trang chủ có ít nhất các nội dung chính:
+  - Giới thiệu mục tiêu
+  - Quy luật cung cầu là gì?
+  - Cách hoạt động và các yếu tố ảnh hưởng
+  - Ứng dụng thực tế
+  - Kết luận

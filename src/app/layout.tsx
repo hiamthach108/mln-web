@@ -1,26 +1,31 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-
-import MainLayout from '@/components/layout/MainLayout';
-
-import AppProvider from './providers';
-
-import '@/styles/globals.css';
+import '../styles/globals.css';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import ScrollToTopButton from '@/components/common/ScrollToTopButton';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NextJS + Antd Starter',
-  description: 'NextJS + Antd Boilerplate',
+  title: 'Cung cầu thời đại',
+  description: 'Khám phá quy luật cung cầu theo quan điểm Triết học Mác - Lênin',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en">
+    <html lang="vi">
       <body className={inter.className}>
-        <AppProvider>
-          <MainLayout>{children}</MainLayout>
-        </AppProvider>
+        <Header />
+        <main className="pt-16 min-h-screen">
+          {children}
+        </main>
+        <Footer />
+        <ScrollToTopButton />
       </body>
     </html>
   );
