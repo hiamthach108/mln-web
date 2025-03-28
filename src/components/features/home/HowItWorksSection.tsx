@@ -43,7 +43,7 @@ const HowItWorksSection = () => {
               {factors.map((factor, index) => (
                 <div
                   key={factor.title}
-                  className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                  className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in"
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   <div className="flex items-start space-x-4">
@@ -69,7 +69,7 @@ const HowItWorksSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mt-16">
-          <div className="bg-white p-8 rounded-2xl shadow-lg">
+          <div className="bg-white p-8 rounded-2xl shadow-lg animate-slide-in-left">
             <h3 className="text-2xl font-bold text-primary mb-4">Tác động của cung</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
@@ -86,7 +86,7 @@ const HowItWorksSection = () => {
               </li>
             </ul>
           </div>
-          <div className="bg-white p-8 rounded-2xl shadow-lg">
+          <div className="bg-white p-8 rounded-2xl shadow-lg animate-slide-in-right">
             <h3 className="text-2xl font-bold text-primary mb-4">Tác động của cầu</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">

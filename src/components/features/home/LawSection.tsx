@@ -24,10 +24,10 @@ const LawSection = () => {
     <section id="law" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 animate-fade-in" >
             Quy luật cung cầu là gì?
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in">
             Tìm hiểu về quy luật cơ bản của kinh tế thị trường theo quan điểm của chủ nghĩa Mác - Lênin
           </p>
         </div>
@@ -71,7 +71,7 @@ const LawSection = () => {
           ))}
         </div>
 
-        <div className="mt-16 bg-primary/10 p-8 rounded-2xl">
+        <div className="mt-16 bg-primary/10 p-8 rounded-2xl animate-fade-in">
           <h3 className="text-2xl font-bold text-primary mb-4">Tại sao quy luật cung cầu quan trọng?</h3>
           <p className="text-gray-600 mb-4">
             Quy luật cung cầu giúp chúng ta hiểu được cách thị trường hoạt động và dự đoán được các xu hướng kinh tế. Nó là nền tảng cho việc ra quyết định trong kinh doanh và đầu tư.
