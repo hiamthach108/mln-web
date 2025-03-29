@@ -100,7 +100,7 @@ const ArticlesSection = () => {
                   />
                 </div>
                 <div className="p-5">
-                  <div className="flex gap-2 mb-3">
+                  <div className="flex gap-2 mb-3 flex-wrap">
                     {article.hashtags.map((tag, i) => (
                       <span key={i} className="text-xs text-blue-600 bg-blue-50 px-2 py-1 rounded-full">
                         {tag}
